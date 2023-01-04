@@ -63,11 +63,11 @@ keys = [
     # -------- Mapeos
 
     Key([mod], "Return", lazy.spawn("alacritty"), desc="Launch terminal Alacritty"),
-    Key([mod, "shift"], "f", lazy.spawn("firefox"), desc="Launch Firefox"),
-    Key([mod, "shift"], "c", lazy.spawn("chromium"), desc="Launch Chrome"),
-    Key([mod, "shift"], "m", lazy.spawn("rofi -show drun"), desc="Launch Rofi"),
-    Key([mod], "m", lazy.spawn("kitty -e ranger"), desc="Launch file manager Ranger"),
-    Key([mod], "x", lazy.spawn("scrot -s '/home/lazaro/Desktop/screenshots/screenshot_%d-%m-%y_$wx$hpx.png'"), desc="Take Screenshots"),
+    Key([mod], "F1", lazy.spawn("firefox"), desc="Launch Firefox"),
+    Key([mod], "F2", lazy.spawn("chromium"), desc="Launch Chrome"),
+    Key([mod], "F3", lazy.spawn("rofi -show drun"), desc="Launch Rofi"),
+    Key([mod], "F4", lazy.spawn("kitty -e ranger"), desc="Launch file manager Ranger"),
+    Key([mod], "F5", lazy.spawn("scrot -s 'screenshot__%d-%m-%y_$wx$hpx.png' -e 'mkdir -p ~/Desktop/screenshots && mv $f ~/Desktop/screenshots'"), desc="Take Screenshots"),
 
     # --------
 
