@@ -10,7 +10,6 @@ Es necesario instalar:
  - picom
  - firefox
  - chromium
- - libreoffice-fresh
  - rofi
  - ranger
  - scrot
