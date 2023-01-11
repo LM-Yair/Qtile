@@ -68,6 +68,7 @@ keys = [
     Key([mod], "F3", lazy.spawn("rofi -show drun"), desc="Launch Rofi"),
     Key([mod], "F4", lazy.spawn("kitty -e ranger"), desc="Launch file manager Ranger"),
     Key([mod], "F5", lazy.spawn("scrot -s 'screenshot__%d-%m-%y_$wx$hpx.png' -e 'mkdir -p ~/Desktop/screenshots && mv $f ~/Desktop/screenshots'"), desc="Take Screenshots"),
+    Key([mod, "shift"], "F5", lazy.spawn("scrot -u 'screenshot__%d-%m-%y_$wx$hpx.png' -e 'mkdir -p ~/Desktop/screenshots && mv $f ~/Desktop/screenshots'"), desc="Take Screenshots"),
 
     # --------
 
